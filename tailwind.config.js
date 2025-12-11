@@ -15,6 +15,7 @@ module.exports = {
         "slide-in": "slideIn 0.3s ease-out",
         "fade-in-up": "fadeInUp 0.8s ease-out",
         steam: "steam 3s ease-out infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
       keyframes: {
         fadeIn: {
@@ -29,9 +30,24 @@ module.exports = {
           "0%": { opacity: "0", transform: "translateY(20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        "pulse-glow": {
+          "0%, 100%": { opacity: 1 },
+          "50%": { opacity: 0.5 },
+        },
       },
       colors: {
-        cream: "#f5f0e6",
+        beige: "#e6d5b8",
+        gold: "#d4af37",
+        cream: "#f5f1e8",
+        "warm-gray": {
+          100: "#f3f2ef",
+          200: "#e5e3dd",
+          300: "#d6d3c9",
+          400: "#a8a294",
+          500: "#7a7568",
+          600: "#4c473d",
+          cream: "#f5f0e6",
+        },
         brown: {
           50: "#fdf8f6",
           100: "#f2e8e5",
