@@ -56,7 +56,7 @@ const ContactSection = () => {
 
 
 
-  const whatsappMessage = `Hello O2 Cafe De La Ville! I'd like to inquire about...`;
+  const whatsappMessage = `Hello Velvet Sip Cafe! I'd like to inquire about...`;
   const whatsappUrl = `https://wa.me/15551234567?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
