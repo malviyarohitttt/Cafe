@@ -36,9 +36,9 @@ const HeroSection = () => {
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
               <span className="block bg-gradient-to-r from-amber-100 to-cream text-transparent bg-clip-text">
-                O2 Cafe
+                Velvet Sip
               </span>
-              <span className="block text-amber-300 mt-2">De La Ville</span>
+              <span className="block text-amber-300 mt-2">Café</span>
             </h1>
 
             <p className="text-lg md:text-xl text-amber-100/90 font-light max-w-lg leading-relaxed">

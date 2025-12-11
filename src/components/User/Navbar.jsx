@@ -29,10 +29,10 @@ const Navbar = () => {
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="text-2xl font-playfair font-bold text-amber-50 tracking-tight">
-                  O2 Cafe
+                 Velvet Sip
                 </span>
                 <span className="text-xs font-light text-amber-200/80 tracking-widest uppercase">
-                  De La Ville
+                  Café
                 </span>
               </div>
             </div>

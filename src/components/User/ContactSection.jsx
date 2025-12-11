@@ -190,15 +190,15 @@ const ContactSection = () => {
                       <div>
                         <div className="text-sm text-amber-200/70">Email</div>
                         <a 
-                          href="mailto:hello@o2cafedelaville.com" 
+                          href="mailto:hello@velvetsipcafe.com" 
                           className="text-lg font-medium text-[#f5f0e6] hover:text-amber-300 transition-colors"
                         >
-                          hello@o2cafedelaville.com
+                          hello@velvetsipcafe.com
                         </a>
                       </div>
                     </div>
                     <button
-                      onClick={() => handleCopy('hello@o2cafedelaville.com', 'email')}
+                      onClick={() => handleCopy('hello@velvetsipcafe.com', 'email')}
                       className="p-2 rounded-lg bg-amber-900/20 hover:bg-amber-800/30 transition-colors"
                       title="Copy email address"
                     >
@@ -349,10 +349,6 @@ const ContactSection = () => {
                     <button className="group/btn flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-amber-800 to-amber-700 text-[#f5f0e6] px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300 hover:from-amber-700 hover:to-amber-600 active:scale-95 shadow-lg hover:shadow-xl">
                       <Navigation className="w-4 h-4" />
                       <span>Open in Google Maps</span>
-                    </button>
-                    <button className="group/btn flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-amber-900/20 to-amber-800/10 border border-amber-700/40 text-amber-200 px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300 hover:bg-amber-900/30 hover:border-amber-600/50 hover:text-[#f5f0e6]">
-                      <Calendar className="w-4 h-4" />
-                      <span>Book a Table</span>
                     </button>
                   </div>
                 </div>
